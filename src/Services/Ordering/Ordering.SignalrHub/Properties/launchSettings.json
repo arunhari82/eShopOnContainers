@@ -18,10 +18,10 @@
     "Ordering.SignalrHub": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "http://localhost:51312/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "http://localhost:51312/"
+      }
     }
   }
 }

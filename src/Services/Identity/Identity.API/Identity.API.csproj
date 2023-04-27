@@ -8,6 +8,7 @@
     <IsTransformWebConfigDisabled>true</IsTransformWebConfigDisabled>    
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'eShopOnContainers.Identity' " />
   <ItemGroup>
     <PackageReference Include="AspNetCore.HealthChecks.SqlServer" />
     <PackageReference Include="AspNetCore.HealthChecks.UI.Client" />
